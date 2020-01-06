@@ -514,7 +514,7 @@ textarea,
   color: #f39c12;
 }
 .scrollToTop_wraper {
-  opacity: 0 !important;
+  display: none;
 }
 /*colorM*/
 /*nav-tabs*/
@@ -1185,9 +1185,6 @@ blockquote {
 }
 #form5-v .mbr-section-subtitle {
   text-transform: uppercase;
-}
-#form5-v .form-control-label {
-  color: undefined;
 }
 #menu-w .hide-buttons .nav-btn {
   display: none !important;

@@ -25,8 +25,11 @@
     "noImageResize": "",
     "google-analytics": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 37,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 39,
+    "versionPublish": "4.10.8",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -58,28 +61,28 @@
           "_name": "header4",
           "_anchor": "header4-0",
           "_params": {
-            "imageSize": 90,
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showImage": true,
             "showArrow": true,
+            "imageSize": 90,
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
-            "bgColor": "#e74c3c",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#e74c3c",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.9,
             "overlayColor": "#e74c3c",
-            "showText": true,
-            "showTitle": true,
-            "showButtons": true,
-            "showImage": true
+            "overlayOpacity": 0.9
           },
           "text": "Aardvark Travels Presents",
           "title": "The World to You, <br>You to the World",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"index.html#form2-c\" data-toolbar=\"-mbrBtnMove\">See IT</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"index.html#form2-c\" data-toolbar=\"-mbrBtnMove\">Experience IT</a>",
           "media": {
             "image": {
               "active": true,
@@ -166,17 +169,17 @@
           "_name": "menu",
           "_anchor": "menu-1",
           "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#2c3e50",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -228,32 +231,32 @@
           "_name": "features6",
           "_anchor": "features6-2",
           "_params": {
-            "imageSize": 50,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#ecf0f1",
+            "showImages": true,
             "showNumber": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
             "showButtons": true,
-            "showImages": true
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
           },
           "number1": "",
           "subtitle1": "We are not a traVEL AGENCY.",
           "title1": "We Bridge Worlds.&nbsp;",
-          "caption1": "<span style=\"font-size: 1rem; line-height: 1.85em;\">We are a group of enthusiasts and advocates offering unique and travel experiences.</span><br><span style=\"font-size: 1rem; line-height: 1.85em;\">We want to promote travelling the world with your eyes open, heart touched and mind blown by the wonders that surround you when you step out of your comfort zone.&nbsp;</span><br><span style=\"font-size: 1rem; line-height: 1.85em;\">Join us in our quest to be one with the world.&nbsp;<br></span><br>",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.85em;\">We are a group of enthusiasts and advocates offering unique and meaningful experiences.</span><br><span style=\"font-size: 1rem; line-height: 1.85em;\">We want to promote seeing the world with your eyes open, heart touched and mind blown by the wonders that surround you when you step out of your comfort zone.&nbsp;</span><br><span style=\"font-size: 1rem; line-height: 1.85em;\">Join us in our quest to be one with the world.&nbsp;<br></span><br>",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"about.html\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
           "media1": {
             "image": {
@@ -302,22 +305,22 @@
           "_name": "header5",
           "_anchor": "header5-4",
           "_params": {
+            "showHeader": true,
+            "showImages": true,
+            "showTitles": true,
             "tabs": "6",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/04.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.9,
             "overlayColor": "#34495e",
-            "showHeader": true,
-            "showImages": true,
-            "showTitles": true
+            "overlayOpacity": 0.9
           },
           "title": "Our Services<br>",
           "media1": {
@@ -333,7 +336,7 @@
             }
           },
           "title1": "TRAVEL CONCIERGE &amp; TICKETING SERVICES",
-          "text1": "Let our travel advisors plan your travels / journey / odyessy! <br>- Customised Itinerary and plans<br>- Cheap Transport Tickets<br>- Quality Accomodation<br>- Unique Tours and Experiences!&nbsp;<br><a href=\"travel-concierge\">Click here to book tickets or plan an itinerary</a>",
+          "text1": "Let our travel advisors plan your travels / journey / odyssey! <br>- Customised Itinerary and plans<br>- Cheap Transport Tickets<br>- Quality Accomodations<br>- Unique Tours and Experiences!&nbsp;<br><a href=\"travel-concierge\">Click here to book tickets or plan an itinerary</a>",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header5",
@@ -347,7 +350,7 @@
             }
           },
           "title2": "EXPERIENCE LIFE AS A LOCAL, WITH LOCALS!",
-          "text2": "Ever wondered how it is like to live like a local? Take part in local activities and events, like attending a community concert, taking a dog to walk in the park, or just hanging out at the neighbourhood watering holes. Let our specialist guides accompany you and show you how it is like to be one of them/us together! &nbsp;&nbsp;<br><a href=\"local-experiences.html\">Engage a local chaparone</a>",
+          "text2": "Ever wondered how it is like to live like a local? Take part in local activities and events, like attending a community concert, taking a dog to walk in the park, or just hanging out at the neighbourhood watering holes. Let our specialist guides accompany you and show you how it is like to be one of them/us together! &nbsp;&nbsp;<br><a href=\"local-experiences.html\">Take Part in local experiences!</a>&nbsp;",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header5",
@@ -389,7 +392,7 @@
             }
           },
           "title5": "BUY SNACKS AND SOUVENIRS!",
-          "text5": "Buy Buy Buy! Souvenirs can be had with just from the click of a button! Okay a few clicks, but you get the idea. Whether it be souvenirs that you forgot to pick up, or just to reminesence the memories you had of a favourite snack from distant lands... &nbsp;We offer a variety of exotic items and oddities just for you! Where ever you are.<br>Shop at Snacks and Other Knick Knacks!",
+          "text5": "Buy Buy Buy! Souvenirs can be had with just from the click of a button! Okay a few clicks, but you get the idea. Whether it be souvenirs that you forgot to pick up, or just to reminiscence the memories you had of a favourite snack from distant lands... &nbsp;We offer a variety of exotic items and oddities just for you! Whereever you are.<br>Shop at Snacks and Other Knick Knacks! (To Be Launched)",
           "media6": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header5",
@@ -403,8 +406,8 @@
             }
           },
           "title6": "VIRTUAL TOURS FOR ARMCHAIR EXPLORERS",
-          "text6": "Yes you can even travel &nbsp;from the comforts of your own home, and in your favourite arm chair! &nbsp;We have a series of Virtual Reality Tours that will excite your visual and auditory senses! Smells and Tastes can be had too if you will visit our SHOP!<br>Tour from your Armchair",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-4\" aria-expanded=\"false\">&nbsp;CONCIERGE</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-4\" aria-expanded=\"false\">EXPERIENCE</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-4\" aria-expanded=\"false\">RELOCATE</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-4\" aria-expanded=\"false\">ENRICH</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-4\" aria-expanded=\"false\">SHOP</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-4\" aria-expanded=\"true\">Virtual Tours</a></li>"
+          "text6": "Yes you can even travel &nbsp;from the comforts of your own home, and in your favourite arm chair! &nbsp;We have a series of Virtual Reality Tours that will excite your visual and auditory senses! Smells and Tastes can be had too if you will visit our SHOP!<br>Tour from your Armchair! (To be Launched)",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-4\" aria-expanded=\"false\">&nbsp;CONCIERGE</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-4\" aria-expanded=\"false\">EXPERIENCE</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-4\" aria-expanded=\"false\">RELOCATE</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-4\" aria-expanded=\"true\">ENRICH</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-4\" aria-expanded=\"false\">SHOP</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-4\" aria-expanded=\"false\">Virtual Tours</a></li>"
         },
         {
           "_styles": {
@@ -418,10 +421,10 @@
           "_name": "content3",
           "_anchor": "content3-a",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "What you can look forward to.",
           "meta": "By <b>John Smith</b> posted July 20, 2016"
@@ -434,48 +437,63 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
             "paddingTop": "0",
             "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "#fff",
+            "showText": true,
+            "filter": false,
             "images": [
               {
                 "tags": "Local Transport, Singapore, Indonesia, Philippines",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1125-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpeg",
                 "caption": "Local Experiences",
-                "active": true
+                "active": false,
+                "alt": "",
+                "title": ""
               },
               {
                 "tags": "Instagram, Singapore, Indonesia, Philippines",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpeg",
                 "caption": "Instagram Worthy Loations",
-                "active": false
+                "active": false,
+                "alt": "",
+                "title": ""
               },
               {
                 "tags": "Cycling, Singapore, Philippines, Indonesia",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1333-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpeg",
                 "caption": "Cycling, Bus, Walks&nbsp;",
-                "active": false
+                "active": false,
+                "alt": "",
+                "title": ""
               },
               {
                 "tags": "Nature, Singapore, Philippines, Indonesia",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpeg",
                 "caption": "Hiking, Nature &amp; Outdoors",
-                "active": false
+                "active": false,
+                "alt": "",
+                "title": ""
               },
               {
                 "tags": "Neighbourhoods, Singapore, Indonesia, Philippines",
@@ -492,39 +510,38 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpeg",
                 "caption": "Art, Culture, History &amp; Heritage",
-                "active": false
+                "active": false,
+                "alt": "",
+                "title": ""
               },
               {
                 "tags": "Who's Traveling, Singapore, Indonesia, Philippines",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1341-800x536.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1341.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1341-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1341.jpeg",
                 "caption": "Travel for Elders, Families with Children, Couples, Singles",
-                "active": false
+                "active": false,
+                "alt": "",
+                "title": ""
               },
               {
                 "tags": "Travel Bookings",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1334-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpeg",
                 "caption": "Book Tickets, Accomodation, Tours",
-                "active": false
+                "active": true,
+                "alt": "",
+                "title": ""
               }
-            ],
-            "spacing": 0,
-            "showText": true,
-            "filter": false,
-            "bgColor": "#fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery3-7",
           "articleLayout": false,
@@ -544,22 +561,22 @@
           "_name": "team2",
           "_anchor": "team2-5",
           "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
             "paddingTop": 1,
             "paddingBottom": 0,
             "bgImageRadio": false,
-            "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/pricing-table-bg.jpg",
-            "bgColor": "#ecf0f1",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
+            "overlayOpacity": 0.5
           },
           "title": "Our Team",
           "subtitle": "We are travellers too.&nbsp;",
@@ -577,40 +594,49 @@
           },
           "person1": "Aldrin",
           "subtitle1": "Life-Long Learner&nbsp;",
-          "caption1": "Travels the world often and experiences local life by walking.",
+          "caption1": "Travels the world often and experiences local life by walking and seeking out its intricicacies.",
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/face2.png",
+              "src": "@PROJECT_PATH@/assets/images/lineng-in-a-pot-600x812.jpeg",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "person2": "Lineng",
           "subtitle2": "Positive Experiences",
-          "caption2": "When the aim is to develop an entertaining and fun game app, it is essential for .",
+          "caption2": "Spreading positivity while sharing insights into the world we live in.",
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/face3.png",
+              "src": "@PROJECT_PATH@/assets/images/jennifer-291x206.jpeg",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "person3": "Jennifer",
           "subtitle3": "Instagrammer",
-          "caption3": "In daily life, maybe you have so familiar with a number of daily necessities, well, do you .",
+          "caption3": "Seeing the world, catching snipplets of beauty, feasting on its delicacies.",
           "media4": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/face4.png",
+              "src": "@PROJECT_PATH@/assets/images/gansano-267x203.jpeg",
               "class": "features-img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "person4": "Enggano",
-          "subtitle4": "Travel Enthusiast",
-          "caption4": "Every year more than four million traffic lights use an estimated three billion ."
+          "subtitle4": "Travel Coordinator",
+          "caption4": "Responsible, affable and steadfast. Taking people there and back safe and securely."
         },
         {
           "_styles": {
@@ -629,19 +655,19 @@
           "_name": "footer3",
           "_anchor": "footer3-b",
           "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#444444",
-            "showTitles": true,
-            "showButtons": true,
-            "logo": true
+            "overlayOpacity": 0.8
           },
           "title1": "Services",
           "text11": "<a href=\"travel-concierge\">Travel Concierge</a>",
@@ -653,16 +679,16 @@
           "text21": "Singapore",
           "text22": "Indonesia",
           "text23": "Philippines",
-          "text24": "",
-          "text25": "Malaysia",
+          "text24": "Malaysia",
+          "text25": "Japan",
           "title3": "Learn more",
-          "text31": "Support",
+          "text31": "Policies/ Terms of Use",
           "text32": "<a href=\"about.html\">About Us</a>",
           "text33": "<a href=\"index.html#team2-5\">Our Team</a>",
           "text34": "<a href=\"about.html#accordion3-10\">FAQ</a>",
-          "text35": "<a href=\"#bottom\">Contact</a>",
+          "text35": "<a href=\"index.html#form2-c\">Contact</a>",
           "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "logo": {
             "image": {
               "active": true,
@@ -680,9 +706,9 @@
             }
           },
           "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
+          "titled2": "Terms &amp; Conditions",
           "titled3": "Copyright Notifications",
-          "text": "Copyright (c) 2017 Aardvark Anterprises"
+          "text": "Copyright (c) 2020 Aardvark Anterprises"
         },
         {
           "_styles": {
@@ -698,25 +724,25 @@
           "_name": "form2",
           "_anchor": "form2-c",
           "_params": {
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
-            "bgColor": "#ecf0f1",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#ecf0f1",
-            "showSubtitle": true,
-            "showTitle": true,
-            "showText": true
+            "overlayOpacity": 0.5
           },
           "subtitle": "Any Inquries?",
           "title": "CONTACT FORM",
           "text": "Let us know what you think!",
           "form": {
-            "action": "aardvarkants@gmail.com",
+            "action": "travel@aardvarkants.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -818,25 +844,27 @@
           "_name": "menu",
           "_anchor": "menu-d",
           "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#2c3e50",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/aardvark-anterprises-logo-banner-320x180-181x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -864,19 +892,19 @@
           "_name": "footer3",
           "_anchor": "footer3-e",
           "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#444444",
-            "showTitles": true,
-            "showButtons": true,
-            "logo": true
+            "overlayOpacity": 0.8
           },
           "title1": "Services",
           "text11": "<a href=\"travel-concierge\">Travel Concierge</a>",
@@ -888,23 +916,23 @@
           "text21": "Singapore",
           "text22": "Indonesia",
           "text23": "Philippines",
-          "text24": "",
-          "text25": "Malaysia",
+          "text24": "Malaysia",
+          "text25": "Japan",
           "title3": "Learn more",
-          "text31": "Support",
+          "text31": "Policies/ Terms of Use",
           "text32": "<a href=\"about.html\">About Us</a>",
           "text33": "<a href=\"index.html#team2-5\">Our Team</a>",
           "text34": "<a href=\"about.html#accordion3-10\">FAQ</a>",
-          "text35": "<a href=\"#bottom\">Contact</a>",
+          "text35": "<a href=\"index.html#form2-c\">Contact</a>",
           "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/aardvarkants-banner-145x52px-199x1280.png",
+              "src": "@PROJECT_PATH@/assets/images/aardvarkants-banner-145x52px-199x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -915,9 +943,9 @@
             }
           },
           "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
+          "titled2": "Terms &amp; Conditions",
           "titled3": "Copyright Notifications",
-          "text": "Copyright (c) 2017 Aardvark Anterprises"
+          "text": "Copyright (c) 2020 Aardvark Anterprises"
         },
         {
           "_styles": {
@@ -943,63 +971,69 @@
           "_name": "features4",
           "_anchor": "features4-f",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
-            "bgColor": "#51b9bc",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#51b9bc",
             "showTitle": true,
-            "columns": 3,
             "showImages": true,
             "showTitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#51b9bc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#51b9bc",
+            "overlayOpacity": 0.9
           },
           "title": "TRAVEL CONCIERGE",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "phone",
-              "link": "https://mobirise.com",
+              "linkInNewWindow": false,
+              "name": "mobile",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "travel-concierge",
               "size": 0,
               "color": "#fff",
-              "family": "et-line"
+              "newWindow": false
             }
           },
           "subtitle1": "Plan Itinerary",
           "caption1": "We will plan an itinerary for you",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
               "name": "edit",
-              "link": "https://mobirise.com",
+              "family": "et-line",
+              "active": true,
+              "link": "",
               "size": 0,
               "color": "#fff",
-              "family": "et-line"
+              "newWindow": false
             }
           },
           "subtitle2": "Book Travel / ACCOMODATION/ TICKETS/ TOURS",
           "caption2": "Submit your One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
               "name": "briefcase",
-              "link": "https://mobirise.com",
+              "family": "et-line",
+              "active": true,
+              "link": "",
               "size": 0,
               "color": "#fff",
-              "family": "et-line"
+              "newWindow": false
             }
           },
           "subtitle3": "ENGAGE A LOCAL TOUR GUIDE",
@@ -1053,25 +1087,25 @@
           "_name": "features9",
           "_anchor": "features9-g",
           "_params": {
-            "blocks": "5",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true,
+            "blocks": "3",
             "cardsColor": "#f2e6c6",
             "paddingTop": 2,
             "paddingBottom": 2,
             "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#a15b1c",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#a15b1c",
-            "bgColorRadio": true,
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showTitle": true,
-            "showSubtitle": true,
-            "showDates": true
+            "overlayOpacity": 0.5
           },
           "mainTitle": "How it works",
           "mainSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -1127,27 +1161,27 @@
           "_name": "pricing-table1",
           "_anchor": "pricing-table1-h",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/pricing-table-bg.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showSubtitle": true,
             "firstType": "",
-            "showButtons": true,
             "secondType": "popular",
             "thirdType": "",
-            "fourthType": ""
+            "fourthType": "",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pricing-table-bg.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "Choose Pricing Plan",
           "subtitle": " This new-found knowledge may then be used by engineers to create new tools and machines.",
@@ -1250,17 +1284,17 @@
           "_name": "menu",
           "_anchor": "menu-i",
           "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#2c3e50",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1309,27 +1343,27 @@
           "_name": "header9",
           "_anchor": "header9-k",
           "_params": {
-            "tabs": "3",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
-            "bgColor": "#16a085",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#ecf0f1",
             "showHeader": true,
             "showText": true,
             "showImages": true,
-            "showTitles": true
+            "showTitles": true,
+            "tabs": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
           },
           "title": "<br>About Us",
-          "text": "Aardvark Travels is a boutique travel service, started up and co-owned by avid travellers, looking to share our passion and love for a different travel experience. We hope to change lives, or at least to encourage others to start living full ones, by opening your eyes and mind to the wonders that the world has to offer. <br>Start now, by engaging our unique blend of travel services and experience it for yourself.",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-k\" aria-expanded=\"false\">Passionate</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-k\" aria-expanded=\"true\">Unique</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-k\" aria-expanded=\"false\">Memorable</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-k\">Awesome</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-k\">Amazing</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-k\">Beautiful</a></li>",
+          "text": "Aardvark Travels is a cooperative boutique travel concierge and planning solutions agency, started up and co-owned by avid travellers, looking to share our passion and love for a different travel experience. We hope to change lives, or at least to encourage others to start living full ones, by opening your eyes and mind to the wonders that the world has to offer. <br>Start now, by engaging our unique blend of travel services and experience it for yourself.",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-k\" aria-expanded=\"false\">Passionate</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-k\" aria-expanded=\"false\">Unique</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-k\" aria-expanded=\"true\">Memorable</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-k\">Awesome</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-k\">Amazing</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-k\">Beautiful</a></li>",
           "media11": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/mbr-1618x1080.jpg",
@@ -1480,19 +1514,19 @@
           "_name": "footer3",
           "_anchor": "footer3-j",
           "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#444444",
-            "showTitles": true,
-            "showButtons": true,
-            "logo": true
+            "overlayOpacity": 0.8
           },
           "title1": "Services",
           "text11": "<a href=\"travel-concierge\">Travel Concierge</a>",
@@ -1504,16 +1538,16 @@
           "text21": "Singapore",
           "text22": "Indonesia",
           "text23": "Philippines",
-          "text24": "",
-          "text25": "Malaysia",
+          "text24": "Malaysia",
+          "text25": "Japan",
           "title3": "Learn more",
-          "text31": "Support",
+          "text31": "Policies/ Terms of Use",
           "text32": "<a href=\"about.html\">About Us</a>",
           "text33": "<a href=\"index.html#team2-5\">Our Team</a>",
           "text34": "<a href=\"about.html#accordion3-10\">FAQ</a>",
-          "text35": "<a href=\"#bottom\">Contact</a>",
+          "text35": "<a href=\"index.html#form2-c\">Contact</a>",
           "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "logo": {
             "image": {
               "active": true,
@@ -1531,9 +1565,9 @@
             }
           },
           "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
+          "titled2": "Terms &amp; Conditions",
           "titled3": "Copyright Notifications",
-          "text": "Copyright (c) 2017 Aardvark Anterprises"
+          "text": "Copyright (c) 2020 Aardvark Anterprises"
         },
         {
           "alias": "colorm/components",
@@ -1543,23 +1577,23 @@
           "_name": "accordion3",
           "_anchor": "accordion3-10",
           "_params": {
+            "showTitle": true,
+            "showText": true,
             "tabs": "3",
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showTitle": true,
-            "showText": true
+            "overlayOpacity": 0.5
           },
           "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion3-10\" data-core=\"\" href=\"#collapseOneaccordion3-10\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Are you guys a Travel Agency?</a>",
           "text1": "<p>No we are not! We are a cooperative of individuals and business owners that offers a variety of personalised services in a one-stop portal. In fact, travel agencies are our clients and also our partners.</p>",
@@ -1603,21 +1637,21 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
-            "bgColor": "#16a085",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.9,
             "overlayColor": "#16a085",
-            "showText": true,
-            "showTitle": true,
-            "showButtons": true
+            "overlayOpacity": 0.9
           },
           "text": "\"When in Rome, Do what the romans do!\"",
           "title": "BEAUTIFUL LOCAL EXPERIENCES",
@@ -1647,26 +1681,26 @@
           "_name": "features4",
           "_anchor": "features4-s",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1028.jpg",
-            "bgColor": "#51b9bc",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#51b9bc",
             "showTitle": true,
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1028.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#51b9bc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#51b9bc",
+            "overlayOpacity": 0.9
           },
           "title": "Features",
           "media1": {
@@ -1811,17 +1845,17 @@
           "_name": "menu",
           "_anchor": "menu-l",
           "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#2c3e50",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1859,19 +1893,19 @@
           "_name": "footer3",
           "_anchor": "footer3-m",
           "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#444444",
-            "showTitles": true,
-            "showButtons": true,
-            "logo": true
+            "overlayOpacity": 0.8
           },
           "title1": "Services",
           "text11": "<a href=\"travel-concierge\">Travel Concierge</a>",
@@ -1883,16 +1917,16 @@
           "text21": "Singapore",
           "text22": "Indonesia",
           "text23": "Philippines",
-          "text24": "",
-          "text25": "Malaysia",
+          "text24": "Malaysia",
+          "text25": "Japan",
           "title3": "Learn more",
-          "text31": "Support",
+          "text31": "Policies/ Terms of Use",
           "text32": "<a href=\"about.html\">About Us</a>",
           "text33": "<a href=\"index.html#team2-5\">Our Team</a>",
           "text34": "<a href=\"about.html#accordion3-10\">FAQ</a>",
-          "text35": "<a href=\"#bottom\">Contact</a>",
+          "text35": "<a href=\"index.html#form2-c\">Contact</a>",
           "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "logo": {
             "image": {
               "active": true,
@@ -1910,9 +1944,9 @@
             }
           },
           "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
+          "titled2": "Terms &amp; Conditions",
           "titled3": "Copyright Notifications",
-          "text": "Copyright (c) 2017 Aardvark Anterprises"
+          "text": "Copyright (c) 2020 Aardvark Anterprises"
         },
         {
           "_styles": {},
@@ -1922,8 +1956,24 @@
           ],
           "_name": "news1",
           "_params": {
+            "showImages": true,
+            "showTitle": true,
+            "showText": true,
+            "showDate": false,
             "paddingTop": 2,
             "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9,
             "news": [
               {
                 "image": "@PROJECT_PATH@/assets/images/01.jpeg",
@@ -1943,23 +1993,7 @@
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae delectus, laborum consequatur assumenda placeat, porro aspernatur cumque vero fugit harum quis modi obcaecati vel itaque numquam tenetur voluptatum maxime culpa quam eum consectetur veniam. Itaque totam, doloribus at? Tenetur, temporibus mollitia cupiditate. Doloremque quasi fugit velit et similique, neque optio facilis perferendis vitae minima quidem veniam totam quaerat suscipit tenetur aperiam id molestiae nobis cupiditate a rem dolorum doloribus? Suscipit officia expedita, nostrum et tempora amet repellat. Est molestiae odit debitis eaque, accusantium tempora. Ipsam eligendi dolores, illum magni maiores. Temporibus accusantium velit earum et repellendus labore accusamus iusto id.",
                 "date": "10 june 2016"
               }
-            ],
-            "showImages": true,
-            "showTitle": true,
-            "showText": true,
-            "showDate": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#fff"
+            ]
           },
           "_anchor": "news1-o"
         }
@@ -2033,17 +2067,17 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#2c3e50",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2081,19 +2115,19 @@
           "_name": "footer3",
           "_anchor": "footer3-u",
           "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#444444",
-            "showTitles": true,
-            "showButtons": true,
-            "logo": true
+            "overlayOpacity": 0.8
           },
           "title1": "Services",
           "text11": "<a href=\"travel-concierge\">Travel Concierge</a>",
@@ -2105,16 +2139,16 @@
           "text21": "Singapore",
           "text22": "Indonesia",
           "text23": "Philippines",
-          "text24": "",
-          "text25": "Malaysia",
+          "text24": "Malaysia",
+          "text25": "Japan",
           "title3": "Learn more",
-          "text31": "Support",
+          "text31": "Policies/ Terms of Use",
           "text32": "<a href=\"about.html\">About Us</a>",
           "text33": "<a href=\"index.html#team2-5\">Our Team</a>",
           "text34": "<a href=\"about.html#accordion3-10\">FAQ</a>",
-          "text35": "<a href=\"#bottom\">Contact</a>",
+          "text35": "<a href=\"index.html#form2-c\">Contact</a>",
           "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "logo": {
             "image": {
               "active": true,
@@ -2132,9 +2166,9 @@
             }
           },
           "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
+          "titled2": "Terms &amp; Conditions",
           "titled3": "Copyright Notifications",
-          "text": "Copyright (c) 2017 Aardvark Anterprises"
+          "text": "Copyright (c) 2020 Aardvark Anterprises"
         },
         {
           "_styles": {
@@ -2150,20 +2184,20 @@
           "_name": "form5",
           "_anchor": "form5-v",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#ecf0f1",
             "showSubtitle": true,
             "showTitle": true,
             "showText": true,
-            "countdown": "2017/09/01"
+            "countdown": "2017/09/01",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
           },
           "subtitle": "This service is currently being tested",
           "title": "Coming Soon!",
@@ -2270,17 +2304,17 @@
           "_name": "menu",
           "_anchor": "menu-w",
           "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#2c3e50",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2318,19 +2352,19 @@
           "_name": "footer3",
           "_anchor": "footer3-x",
           "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#444444",
-            "showTitles": true,
-            "showButtons": true,
-            "logo": true
+            "overlayOpacity": 0.8
           },
           "title1": "Services",
           "text11": "<a href=\"travel-concierge\">Travel Concierge</a>",
@@ -2342,16 +2376,16 @@
           "text21": "Singapore",
           "text22": "Indonesia",
           "text23": "Philippines",
-          "text24": "",
-          "text25": "Malaysia",
+          "text24": "Malaysia",
+          "text25": "Japan",
           "title3": "Learn more",
-          "text31": "Support",
+          "text31": "Policies/ Terms of Use",
           "text32": "<a href=\"about.html\">About Us</a>",
           "text33": "<a href=\"index.html#team2-5\">Our Team</a>",
           "text34": "<a href=\"about.html#accordion3-10\">FAQ</a>",
-          "text35": "<a href=\"#bottom\">Contact</a>",
+          "text35": "<a href=\"index.html#form2-c\">Contact</a>",
           "followtext": "follow us",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.pinterest.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.instagram.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"www.tacebook.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "logo": {
             "image": {
               "active": true,
@@ -2369,9 +2403,9 @@
             }
           },
           "titled1": "Private policy",
-          "titled2": "Terms & Conditions",
+          "titled2": "Terms &amp; Conditions",
           "titled3": "Copyright Notifications",
-          "text": "Copyright (c) 2017 Aardvark Anterprises"
+          "text": "Copyright (c) 2020 Aardvark Anterprises"
         },
         {
           "_styles": {
@@ -2389,24 +2423,24 @@
           "_name": "header2",
           "_anchor": "header2-y",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "buttonAlign": "right",
-            "iconsColor": "#ffffff",
-            "parallax": true,
-            "bgImageRadio": true,
             "showArrow": true,
+            "iconsColor": "#ffffff",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/05.jpg",
-            "bgColor": "#8e44ad",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#8e44ad",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.9,
             "overlayColor": "#8e44ad",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.9
           },
           "title": "ENRICH AND IMMERSE YOURSELF&nbsp;",
           "text": "Time to Come out of your shell. <br>leave your comfort zone, &nbsp;Immerse iN new surroundings and experiences. &nbsp;learn more about yourself and others by getting knee-deep in meaningul &nbsp;situations and activities",
@@ -2466,25 +2500,25 @@
           "_name": "features16",
           "_anchor": "features16-z",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
-            "bgColor": "#f9593a",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#f9593a",
+            "showTitle": true,
             "showImages": true,
             "showTitles": true,
             "ShowTexts": true,
-            "showTitle": true,
-            "columns": "4"
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f9593a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#f9593a",
+            "overlayOpacity": 0.9
           },
           "media1": {
             "iconFont": {
